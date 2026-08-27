@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="bn">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>QuickTool BD — Free Online Tools</title>
+  <meta name="description" content="ফ্রি অনলাইন ক্যালকুলেটর ও সহজ টুলস। Percentage, Age এবং Unit Converter এক জায়গায়।">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <div class="wrap nav">
+    <a class="logo" href="#">QuickTool BD</a>
+    <span class="tag">Free Online Tools</span>
+  </div>
+</header>
+
+<main class="wrap">
+  <section class="hero">
+    <h1>দরকারি ফ্রি অনলাইন টুলস</h1>
+    <p>কোনো অ্যাপ ইনস্টল ছাড়াই দ্রুত হিসাব করুন।</p>
+  </section>
+
+  <div class="adbox">Ad space — Adsterra code এখানে বসবে</div>
+
+  <section class="grid">
+    <article class="card">
+      <h2>Percentage Calculator</h2>
+      <label>কত শতাংশ?</label>
+      <input id="pct" type="number" placeholder="যেমন 15">
+      <label>কোন সংখ্যার?</label>
+      <input id="num" type="number" placeholder="যেমন 800">
+      <button onclick="calcPct()">হিসাব করুন</button>
+      <p id="pctResult" class="result"></p>
+    </article>
+
+    <article class="card">
+      <h2>Age Calculator</h2>
+      <label>জন্মতারিখ</label>
+      <input id="dob" type="date">
+      <button onclick="calcAge()">বয়স দেখুন</button>
+      <p id="ageResult" class="result"></p>
+    </article>
+
+    <article class="card">
+      <h2>Unit Converter</h2>
+      <label>মিটার</label>
+      <input id="meter" type="number" placeholder="যেমন 10">
+      <button onclick="convert()">রূপান্তর করুন</button>
+      <p id="unitResult" class="result"></p>
+    </article>
+  </section>
+
+  <div class="adbox">Ad space — Adsterra code এখানে বসবে</div>
+
+  <section class="info">
+    <h2>QuickTool BD সম্পর্কে</h2>
+    <p>এখানে সাধারণ দৈনন্দিন হিসাবের জন্য সহজ ও ফ্রি টুল দেওয়া হয়েছে। সাইটটি মোবাইলেও ব্যবহার করা যায়।</p>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">© 2026 QuickTool BD</div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
